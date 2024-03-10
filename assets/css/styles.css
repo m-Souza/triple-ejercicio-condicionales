@@ -1,0 +1,55 @@
+body{
+    min-height: 100vh;
+    background: linear-gradient(45deg, rgba(219,217,0,1) 0%, rgba(0,212,255,1) 95%);
+    overflow: hidden;
+    color: #cfcfcf;
+
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.479);
+}
+
+h1{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+main { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5%;
+}
+
+.card{
+    margin: 5%;
+    padding: 5%;
+    min-width: fit-content;
+    border-radius: 5px;
+    backdrop-filter: saturate(2) opacity(50%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-decoration: none;
+    color: inherit;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+input{
+    border: 1px solid black;
+}
+
+
+@media screen and (min-width: 576px){
+    main{
+        flex-direction: row;
+        justify-content: center;
+    }
+}

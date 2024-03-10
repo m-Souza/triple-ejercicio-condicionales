@@ -1,0 +1,31 @@
+body{
+    overflow: auto;
+    color: white;
+    text-align: center;
+}
+.stickers{
+    display: flex;
+    flex-direction: row;
+    min-height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card img{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+
+.stickers .card{
+    margin: 10px;
+    padding: 10px;
+}
+
+button{
+    padding: 5px;
+    backdrop-filter: saturate(2) opacity(50%);
+}
+
